@@ -1,23 +1,11 @@
 '''
-  File: MagicSquare.py
-
   Description: This program will ask the user for an odd, positive, integer. Then
   it will check that the input is valid, if not the program will ask the user
   for a new input. If the input is valid, program will create a magic square,
   print the magic_square and check that the magic square is in fact a magic square.
 
-  Student's Name: Jorge Caviedes
-
-  Student's UT EID: jac9773
-
-  Course Name: CS 313E
-
-  Unique Number: 51350
-
-  Date Created: 9/6/2018
-
-  Date Last Modified: 9/7/2018
-'''# Populate a 2-D list with numbers from 1 to n**2
+'''
+# Populate a 2-D list with numbers from 1 to n**2
 # This function must take as input an integer. You may assume that
 # n >= 1 and n is odd. This function must return a 2-D list (a list of
 # lists of integers) representing the square.
