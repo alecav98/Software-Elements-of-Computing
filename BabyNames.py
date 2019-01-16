@@ -1,20 +1,6 @@
-#  File: BabyNames.py
-
 #  Description: This program allows a user to query a data base of the 1000
 #  most popular baby names in the United States per decade for the past 11
 #  decades under certain constraints implemented below.
-
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 9/12/2018
-
-#  Date Last Modified: 9/14/2018
 
 # This function returns True if a name exists in the dictionary and False otherwise.
 # The function takes as input the data that we read in from the text file in the
@@ -214,5 +200,6 @@ def main():
             print('The system could not read the file.')
         finally:
             in_file.close()
+            
 if __name__ == "__main__":
   main()
