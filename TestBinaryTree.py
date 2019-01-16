@@ -1,18 +1,4 @@
-#  File: TestBinaryTree.py
-
 #  Description: We will add to the classes Node and Tree and test them.
-
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 11/13/2018
-
-#  Date Last Modified: 11/16/2018
 
 class Node (object):
   def __init__ (self, data):
