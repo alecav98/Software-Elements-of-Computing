@@ -1,19 +1,5 @@
-#  File: Queens.py
-
-#  Description: For the size of the board that the user specified generate
+#  Description: For the size of the board that the user specified, generate
 #  and print all possible solutions to the queens problem for that size.
-
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 10/26/2018
-
-#  Date Last Modified: 10/29/2018
 
 # make a global counter
 counter = 0
