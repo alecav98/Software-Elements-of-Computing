@@ -1,21 +1,8 @@
-#  File: Triangle.py
-
 #  Description: We will apply four different approaches to problem solving
 #  - exhaustive search, greedy, divide and conquer (recursive),
 #  and dynamic programming - to find the greatest path sum starting at
 #  the top of the triangle and moving only to adjacent numbers on the row below.
-
-#  Student's Name: Jorge Caviedes
-
-#  Student's UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 10/29/2018
-
-#  Date Last Modified: 10/31/2018
+#  This program uses triangle.txt file
 
 from timeit import timeit
 
