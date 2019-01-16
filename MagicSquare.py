@@ -26,6 +26,7 @@ def make_square ( n ):
             i = (i - 1 + n)%n
             magic_square[i][j] = c
     return(magic_square)
+  
 # Print the magic square in a neat format where the numbers
 # are right justified
 # This function must take as input a 2-D list of integers
@@ -85,6 +86,7 @@ def check_square ( magic_square ):
         else:
             break
     return True
+  
 def main():
   # Prompt the user to enter an odd number 1 or greater
   n = input('Please enter an odd number greater than or equal to 1:')
@@ -112,8 +114,6 @@ def main():
       main()
   except:
       main()
-# This line above main is for grading purposes. It will not affect how
-# your code will run while you develop and test it.
-# DO NOT REMOVE THE LINE ABOVE MAIN
+      
 if __name__ == "__main__":
   main()
