@@ -1,19 +1,6 @@
-#  File: PhoneBook.py
-
 #  Description: The purpose of this assignment is to build a phone book that
 #  will store contact information of people that the user knows.
 
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 9/18/2018
-
-#  Date Last Modified: 9/21/2018
 
 class ContactInfo (object):
   # constructor
@@ -237,8 +224,5 @@ def main():
   print ()
   print ("Thank you for using the Phone Book.\n")
 
-# This line above main is for grading purposes. It will not affect how
-# your code will run while you develop and test it.
-# DO NOT REMOVE THE LINE ABOVE MAIN
 if __name__ == "__main__":
   main()
