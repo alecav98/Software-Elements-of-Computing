@@ -1,19 +1,5 @@
-#  File: EvenMagicSquare.py
-
 #  Description: In this assignment we will generate n magic squares of order 4
 #  through permutation. N is decided by the user and is between 1 and 10 inclusive.
-
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 10/19/2018
-
-#  Date Last Modified: 10/22/2018
 
 # Create global counter to keep track of squares printed
 counter = 0
