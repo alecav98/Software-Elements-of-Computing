@@ -1,19 +1,6 @@
-#  File: Work.py
-
 #  Description: Use the Binary Search algorithm to find how many
 #  lines Vyasa has to write before having his first cup of coffee.
 
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 53150
-
-#  Date Created: 10/6/2018
-
-#  Date Last Modified: 10/8/2018
 
 # This function will give back a list of the sums starting from
 # v = 1 to v = n - 1
