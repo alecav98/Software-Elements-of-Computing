@@ -1,20 +1,6 @@
-#  File: BST_Cipher.py
-
 #  Description: We will will create a simple encryption scheme using
 #  a binary search tree. To encode a sentence, we insert each letter
 #  into a binary tree using the ASCII value as a comparative measure.
-
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: Jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 11/11/2018
-
-#  Date Last Modified: 11/11/2018
 
 class Node (object):
   def __init__ (self, data):
