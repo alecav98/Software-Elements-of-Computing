@@ -3,17 +3,6 @@
 #  Description: This program will use two ciphers: the substitution cipher,
 #  and the Vigenere Cipher to encode and decode input given by the user.
 
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 9/8/2018
-
-#  Date Last Modified: 9/10/2018
 
 # takes a single string as input parameter and returns a string.
 # The function will check every character in the string to make sure
@@ -219,8 +208,5 @@ def main():
   # close file
   in_file.close()
 
-# This line above main is for grading purposes. It will not affect how
-# your code will run while you develop and test it.
-# DO NOT REMOVE THE LINE ABOVE MAIN
 if __name__ == "__main__":
   main()
