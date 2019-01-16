@@ -1,19 +1,6 @@
-#  File: TopoSort.py
-
-#  Description: Will implement a function to detect if there are cycles in DAG
-#  Also will implement toposort algorithm
-
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: Jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 11/29/2018
-
-#  Date Last Modified: 12/3/18
+#  Description: Will implement a function to detect if there are cycles in DAG. We
+#  will also use bfs and dfs to implement toposort algorithm.
+#  This program uses topo.txt file.
 
 class Stack (object):
   def __init__ (self):
@@ -258,63 +245,6 @@ class Graph (object):
       (self.Vertices[i]).visited = False
 
     return False
-
-    # # First find vertices that have no incoming edges
-    # no_inc = []
-    # for i in range(len(self.adjMat[0])):
-    #   sum = 0
-    #   for j in range(len(self.adjMat[i])):
-    #     if (self.adjMat[j][i] > 0):
-    #       sum += 1
-    #   if (sum == 0):
-    #     no_inc.append((self.Vertices[i]).label)
-    #
-    # print(no_inc)
-    #
-    # if (len(no_inc) == 0):
-    #   return True
-    #
-    # # Now do modified DFS on those vertices
-    # #for i in range(len(no_inc)):
-    # for i in range(len(self.Vertices)):
-    #   #if (self.Vertices[i]).label in no_inc:
-    #   visited = set([])
-    #
-    #     # create a Stack
-    #   theStack = Stack()
-    #
-    #     # mark vertex i as visited and push on the stack
-    #   (self.Vertices[i]).visited = True
-    #   print(i)
-    #     #print (self.Vertices[i])
-    #   theStack.push(i)
-    #   visited.add(i)
-    #
-    #     # visit other vertices according to depth
-    #   while (not theStack.isEmpty()):
-    #       # get an adjacent unvisited vertex
-    #     u = self.getAdjUnvisitedVertex (theStack.peek())
-    #     neighs = self.getNeighbors((self.Vertices[u]).label)
-    #     for i in range(len(neighs)):
-    #       if ((self.getIndex(neighs[i])) in visited):
-    #         return True
-    #
-    #     if (u == -1):
-    #       u = theStack.pop()
-    #     else:
-    #       #if u in visited:
-    #         #return True
-    #       (self.Vertices[u]).visited = True
-    #       print (self.Vertices[u])
-    #       theStack.push(u)
-    #       visited.add(u)
-    #
-    #     # the stack is empty let us reset the flags
-    #   nVert = len (self.Vertices)
-    #   for i in range (nVert):
-    #     (self.Vertices[i]).visited = False
-    #
-    # return False
 
   # return a list of vertices after a topological sort
   # this function should not print the list
