@@ -1,19 +1,5 @@
-#  File: Josephus.py
-
 #  Description: The program will print out the order in which
 #  the soldiers get eliminated in the famous Josephus problem.
-
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 11/9/2018
-
-#  Date Last Modified: 11/9/2018
 
 class Link(object):
   def __init__(self, data, next=None):
@@ -96,7 +82,6 @@ class CircularList(object):
   # Return a string representation of a Circular List
   def __str__ ( self ):
     pass
-
 
 def main():
   # First we must open and read the file
