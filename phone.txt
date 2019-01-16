@@ -1,0 +1,18 @@
+Donald Trump
+1600 Pennsylvania Ave NW
+Washington
+DC
+20500
+USA
+202-456-1414
+trump@whitehouse.gov
+
+Greg Abbott
+1010 Colorado St.
+Austin
+TX
+78701
+USA
+512-463-5516
+abbott@governor_state.tx.gov
+
