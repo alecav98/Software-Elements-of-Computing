@@ -1,19 +1,5 @@
-# File: Blackjack.py
-
 # Description: This assignment will simulate a Blackjack game
 # using classes and object-oriented programming.
-
-# Student's Name: Jorge Caviedes
-
-# Student's UT EID: jac9773
-
-# Course Name: CS 313E
-
-# Unique Number: 51350
-
-# Date Created: 9/29/2018
-
-# Date Last Modified: 9/30/2018
 
 import random
 
