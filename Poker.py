@@ -1,19 +1,5 @@
-#  File: Poker.py
-
 #  Description: This assignment will simulate a regular Poker game otherwise
 #  known as the 5-Card Draw.
-
-#  Student's Name: Jorge Caviedes
-
-#  Student's UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 53150
-
-#  Date Created: 9/25/2018
-
-#  Date Last Modified: 9/28/2018
 
 import random
 
