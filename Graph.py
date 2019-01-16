@@ -1,18 +1,5 @@
-#  File: Graph.py
-
-#  Description:
-
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: Jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 11/27/2018
-
-#  Date Last Modified: 11/28/2018
+#  Description: In this assignment you will be creating a graph from an input data file called graph.txt. We will
+#  also be performing modifications on the graph and printing out the results.
 
 class Stack (object):
   def __init__ (self):
@@ -170,23 +157,6 @@ class Graph (object):
       (self.Vertices[i]).visited = False
     return
 
-    '''
-    #print (self.Vertices [v]) ###############################
-    #theQueue.enqueue(current)
-    next = self.getAdjUnvisitedVertex(self.getIndex(current.label))
-    theQueue.enqueue(next)
-    # visit other vertices according to breadth
-    while (not theQueue.isEmpty()): #######################
-      # get an adjacent unvisited vertex
-      next = self.getAdjUnvisitedVertex(self.getIndex(current.label)) #########################
-      if (next == -1):
-        current = theQueue.dequeue()
-        print(current) ######################################
-      else:
-        (self.Vertices[next]).visited = True
-        theQueue.enqueue(next)
-    '''
-
   # get edge weight between two vertices
   # return -1 if edge does not exist
   def getEdgeWeight (self, fromVertexLabel, toVertexLabel):
@@ -250,20 +220,16 @@ def main():
 
   # read the Vertices
   numVertices = int ((inFile.readline()).strip())
-  #print (numVertices)                        ############
 
   for i in range (numVertices):
     city = (inFile.readline()).strip()
-    #print (city)                             ############
     cities.addVertex (city)
 
   # read the edges
   numEdges = int ((inFile.readline()).strip())
-  #print (numEdges)                           #############
 
   for i in range (numEdges):
     edge = (inFile.readline()).strip()
-    #print (edge)                             #############
     edge = edge.split()
     start = int (edge[0])
     finish = int (edge[1])
