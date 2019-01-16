@@ -1,19 +1,5 @@
-#  File: TestLinkedList.py
-
 #  Description: In this assignment you will be writing helper methods for
 #  the LinkedList class that we developed and test them
-
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 11/2/2018
-
-#  Date Last Modified: 11/5/2018
 
 class Link (object):
   def __init__(self, data, next=None):
@@ -122,7 +108,7 @@ class LinkedList (object):
     current = self.first
 
     if (current == None):
-      return None                              ########### CHECK BUT THIS SHOULD WORK
+      return None       
 
     while (current != None) and (current.data <= data):
       if (current.data == data):
@@ -341,8 +327,8 @@ class LinkedList (object):
       if (one.data in new_set):
         one = one.next
       else:
-        new_list.insert_last(one.data)                    ###### CHECK THIS
-        new_set.add(one.data)                     ###### CHECK THIS
+        new_list.insert_last(one.data) 
+        new_set.add(one.data)                     
         one = one.next
 
     return new_list
