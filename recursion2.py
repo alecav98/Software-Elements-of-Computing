@@ -1,19 +1,4 @@
-#  File: recursion2.py
-
 #  Description: Practicing recursion with 8 sample excercises from coding bat.
-
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 10/12/2018
-
-#  Date Last Modified: 10/15/2018
-
 
 # Given an array of ints, is it possible to choose a group of some
 # of the ints, such that the group sums to the given target?
@@ -107,8 +92,8 @@ def groupSumClump(start, nums, target):
   elif (start + 1 >= len(nums)):
     if nums[start] == target:
       return True
-    else: ########################
-      return False #####################
+    else:
+      return False 
   elif (nums[start] == nums[start+1]):
     count = 1
     start2 = start
