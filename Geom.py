@@ -1,20 +1,6 @@
-#  File: Geom.py
-
 #  Description: In this program we will create point, circle, and rectangle objects.
 #  Then we will inspect their characteristics and compare each object against
 #  another of the same object.
-
-#  Student Name: Jorge Caviedes
-
-#  Student UT EID: jac9773
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51350
-
-#  Date Created: 9/16/2018
-
-#  Date Last Modified: 9/17/2018
 
 import math
 
@@ -282,8 +268,5 @@ def main():
   # close the file geom.txt
   in_file.close()
 
-# This line above main is for grading purposes. It will not affect how
-# your code will run while you develop and test it.
-# DO NOT REMOVE THE LINE ABOVE MAIN
 if __name__ == "__main__":
   main()
